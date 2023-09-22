@@ -29,4 +29,6 @@
 
 **Note:**
 We have already pre-computed these files and put them in this repository so that you can use them in case you want to directly run training/inference.
+Method1: train + validation data used for training as described in the paper. 0.6185 was the average F1-score achieved across 21 relations on the test set.
+Method2: additional experiment (not described in paper) with Llama2-13b-chat where only train data was used for training. 0.6016 was the average F1-score achieved across 21 relations on the test set.
 
